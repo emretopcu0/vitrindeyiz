@@ -86,14 +86,14 @@ export const sampleBusinesses: Omit<Business, 'id' | 'createdAt' | 'updatedAt'>[
     verified: true
   },
   {
-    name: 'Sik Bayan Kuaförü',
+    name: 'Elite Beauty Studio',
     category: 'Kuaför',
     description: 'Modern saç kesimi, boyama ve güzellik hizmetleri. Uzman kadromuzla en trend modelleri uyguluyor, müşterilerimizi mutlu ediyoruz.',
     rating: 4.9,
     reviewCount: 156,
     phone: '0212 555 9012',
-    email: 'info@sikbayan.com',
-    website: 'www.sikbayan.com',
+    email: 'info@elitebeauty.com',
+    website: 'www.elitebeauty.com',
     image: 'https://images.unsplash.com/photo-1560069002-3dba6dbb9ce1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
     location: 'Şişli Mahallesi, Abide-i Hürriyet Cad. No:89',
     district: 'Şişli',
