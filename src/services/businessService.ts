@@ -21,7 +21,7 @@ const CATEGORIES_COLLECTION = 'categories';
 const REVIEWS_COLLECTION = 'reviews';
 
 // Mock data for development
-const useMockData = true; // Set to false when Firebase is configured
+const useMockData = false; // Set to false when Firebase is configured
 
 // Business Services
 export const businessService = {

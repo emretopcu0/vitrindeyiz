@@ -4,12 +4,13 @@ import { getAuth } from 'firebase/auth';
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBkZ8X8Y8Y8Y8Y8Y8Y8Y8Y8Y8Y8Y8Y8Y8",
-  authDomain: "vitrindeyiz.firebaseapp.com",
-  projectId: "vitrindeyiz",
-  storageBucket: "vitrindeyiz.appspot.com",
-  messagingSenderId: "123456789",
-  appId: "1:123456789:web:abcdef123456789"
+  apiKey: "AIzaSyBWP3iSziG-yi64-2jS6fLKOsDQGOtn_68",
+  authDomain: "vitrindeyiz-d93c4.firebaseapp.com",
+  projectId: "vitrindeyiz-d93c4",
+  storageBucket: "vitrindeyiz-d93c4.firebasestorage.app",
+  messagingSenderId: "343940831562",
+  appId: "1:343940831562:web:dc7e2162030279dbf2c9b3",
+  measurementId: "G-FYRYVBRJ93"
 };
 
 // Initialize Firebase
