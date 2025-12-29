@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Utensils, Car, Scissors, Wrench, Package, Coffee, Dumbbell, ShoppingBag, Heart, Home, Zap, Book, Briefcase, Camera, Music, Palette, Stethoscope, Truck, Plane, Hotel, School, Church, Building, TreePine, Gamepad2, Smartphone, Laptop, Pizza, Apple, Shirt, Sofa } from 'lucide-react';
 
 interface Category {
@@ -68,8 +69,9 @@ const SectorsPage: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {categories.map((category) => (
-              <div
+              <Link
                 key={category.id}
+                to={`/kategori/${category.name.toLowerCase().replace(' ', '-')}`}
                 className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow cursor-pointer group"
               >
                 <div className="p-6">
@@ -98,7 +100,7 @@ const SectorsPage: React.FC = () => {
                     İşletmeleri Gör
                   </button>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ChevronRight, Utensils, Car, Scissors, Wrench, Package } from 'lucide-react';
 
 interface Category {
@@ -22,8 +23,9 @@ const CategoryNavigation: React.FC = () => {
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-4 overflow-x-auto flex-1">
             {categories.map((category) => (
-              <div
+              <Link
                 key={category.name}
+                to={`/kategori/${category.name.toLowerCase().replace(' ', '-')}`}
                 className="flex items-center gap-3 bg-white px-4 py-3 rounded-lg shadow-sm hover:shadow-md transition-shadow cursor-pointer min-w-fit"
               >
                 <div className="text-blue-600">
@@ -33,14 +35,14 @@ const CategoryNavigation: React.FC = () => {
                   <div className="font-medium text-gray-800">{category.name}</div>
                   <div className="text-sm text-gray-500">{category.count} işletme</div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
           
           <div className="flex items-center gap-2 ml-4">
-            <a href="#" className="text-blue-600 hover:text-blue-700 font-medium whitespace-nowrap">
+            <Link to="/sektorler" className="text-blue-600 hover:text-blue-700 font-medium whitespace-nowrap">
               Tüm Kategoriler (37)
-            </a>
+            </Link>
             <button className="text-blue-600 hover:text-blue-700">
               <ChevronRight size={20} />
             </button>

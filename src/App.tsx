@@ -10,6 +10,8 @@ import SectorsPage from './pages/SectorsPage';
 import AdvertisePage from './pages/AdvertisePage';
 import ContactPage from './pages/ContactPage';
 import BusinessDetailPage from './pages/BusinessDetailPage';
+import SearchResultsPage from './pages/SearchResultsPage';
+import CategoryPage from './pages/CategoryPage';
 
 // HomePage component
 const HomePage: React.FC = () => (
@@ -32,6 +34,8 @@ function App() {
           <Route path="/reklam-ver" element={<AdvertisePage />} />
           <Route path="/iletisim" element={<ContactPage />} />
           <Route path="/isletme/:id" element={<BusinessDetailPage />} />
+          <Route path="/arama" element={<SearchResultsPage />} />
+          <Route path="/kategori/:categoryName" element={<CategoryPage />} />
         </Routes>
         <Footer />
       </div>

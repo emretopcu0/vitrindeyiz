@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Search, Mic } from 'lucide-react';
 
 const HeroSection: React.FC = () => {
+  const navigate = useNavigate();
   const [searchData, setSearchData] = useState({
     category: '',
     district: '',
@@ -15,6 +17,15 @@ const HeroSection: React.FC = () => {
     'Yapı Marketler',
     'Kırtasiyeler'
   ];
+
+  const handleSearch = () => {
+    const params = new URLSearchParams();
+    if (searchData.keyword) params.append('keyword', searchData.keyword);
+    if (searchData.category) params.append('category', searchData.category);
+    if (searchData.district) params.append('district', searchData.district);
+    
+    navigate(`/arama?${params.toString()}`);
+  };
 
   const districts = [
     'Beşiktaş',
@@ -89,7 +100,10 @@ const HeroSection: React.FC = () => {
               </div>
 
               {/* Search Button */}
-              <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors flex items-center justify-center gap-2">
+              <button 
+                onClick={handleSearch}
+                className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors flex items-center justify-center gap-2"
+              >
                 <Search size={20} />
                 Ara
               </button>
