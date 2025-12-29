@@ -66,7 +66,7 @@ const SearchResultsPage: React.FC = () => {
     },
     {
       id: 3,
-      name: 'Sik Bayan Kuaförü',
+      name: 'Bayan Kuaförü',
       category: 'Kuaför',
       description: 'Modern saç kesimi ve güzellik hizmetleri',
       rating: 4.9,
