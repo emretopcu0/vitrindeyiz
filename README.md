@@ -1,46 +1,117 @@
-# Getting Started with Create React App
+# Vitrin360 - İstanbul İşletme Rehberi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Vitrin360, İstanbul'daki işletmeleri dijital platformda bir araya getiren modern bir işletme rehberidir. Müşterilerin kolayca işletme bulup iletişim kurabildiği kullanıcı dostu bir arayüz sunar.
 
-## Available Scripts
+## Özellikler
 
-In the project directory, you can run:
+- **Responsive Tasarım** - Tüm cihazlarda mükemmel görünüm
+- **Gelişmiş Arama** - Kategori, ilçe ve anahtar kelime arama
+- **37+ Kategori** - Restoranlardan oto servislere kadar geniş yelpaze
+- **Değerlendirme Sistemi** - Müşteri yorumları ve puanlama
+- **Hızlı İletişim** - Telefon ve WhatsApp entegrasyonu
+- **Harita Entegrasyonu** - İşletmelerin konum bilgisi
+- **Reklam Paketleri** - İşletmeler için premium listeleme seçenekleri
 
-### `npm start`
+## Teknoloji Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React 18** - Modern UI kütüphanesi
+- **TypeScript** - Tip güvenliği
+- **TailwindCSS** - Utility-first CSS framework
+- **React Router** - Sayfa arası navigasyon
+- **Lucide React** - Modern ikon kütüphanesi
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Kurulum
 
-### `npm test`
+### Gereksinimler
+- Node.js 16+ 
+- npm veya yarn
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Adımlar
 
-### `npm run build`
+1. Repository'yi klonlayın:
+```bash
+git clone https://github.com/kullanici-adiniz/vitrin360.git
+cd vitrin360
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Bağımlılıkları yükleyin:
+```bash
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Geliştirme sunucusunu başlatın:
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Uygulama `http://localhost:3000` adresinde çalışacaktır.
 
-### `npm run eject`
+## Proje Yapısı
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+src/
+├── components/          # Tekrar kullanılabilir bileşenler
+│   ├── Header.tsx
+│   ├── HeroSection.tsx
+│   ├── CategoryNavigation.tsx
+│   ├── BusinessListings.tsx
+│   ├── CallToActionBanner.tsx
+│   └── Footer.tsx
+├── pages/              # Sayfa bileşenleri
+│   ├── SectorsPage.tsx
+│   ├── AdvertisePage.tsx
+│   ├── ContactPage.tsx
+│   └── BusinessDetailPage.tsx
+├── App.tsx            # Ana uygulama bileşeni
+└── index.css          # TailwindCSS stilleri
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Sayfalar
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- **Ana Sayfa** (`/`) - Hero section, arama ve öne çıkan işletmeler
+- **Sektörler** (`/sektorler`) - Tüm işletme kategorileri
+- **Reklam Ver** (`/reklam-ver`) - Reklam paketleri ve başvuru formu
+- **İletişim** (`/iletisim`) - İletişim bilgileri ve form
+- **İşletme Detay** (`/isletme/:id`) - Detaylı işletme profili
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Tasarım Özellikleri
 
-## Learn More
+- Modern ve temiz arayüz
+- Mavi renk teması
+- Responsive grid layout
+- Hover efektleri ve animasyonlar
+- Accessibility uyumlu
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Build ve Dağıtım
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Production Build
+```bash
+npm run build
+```
+
+### Test
+```bash
+npm test
+```
+
+## Lisans
+
+Bu proje MIT lisansı altındadır.
+
+## Katkıda Bulunma
+
+1. Fork yapın
+2. Feature branch oluşturun (`git checkout -b feature/AmazingFeature`)
+3. Commit yapın (`git commit -m 'Add some AmazingFeature'`)
+4. Push yapın (`git push origin feature/AmazingFeature`)
+5. Pull request açın
+
+## İletişim
+
+Proje hakkında sorularınız için:
+- E-posta: info@vitrin360.com
+- Website: [vitrin360.com](https://vitrin360.com)
+
+---
+
+Eğer bu projeyi beğendiyseniz star vermeyi unutmayın!
