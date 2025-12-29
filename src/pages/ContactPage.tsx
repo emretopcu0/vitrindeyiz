@@ -242,9 +242,9 @@ const ContactPage: React.FC = () => {
           
           <div className="max-w-4xl mx-auto space-y-6">
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-semibold mb-3">Vitrin360 nedir?</h3>
+              <h3 className="text-xl font-semibold mb-3">Vitrindeyiz nedir?</h3>
               <p className="text-gray-600">
-                Vitrin360, İstanbul'daki işletmeleri dijital platformda bir araya getiren, 
+                Vitrindeyiz, İstanbul'daki işletmeleri dijital platformda bir araya getiren, 
                 müşterilerin kolayca işletme bulup iletişim kurabildiği modern bir işletme rehberidir.
               </p>
             </div>

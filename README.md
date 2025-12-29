@@ -1,6 +1,6 @@
-# Vitrin360 - İstanbul İşletme Rehberi
+# Vitrindeyiz - İstanbul İşletme Rehberi
 
-Vitrin360, İstanbul'daki işletmeleri dijital platformda bir araya getiren modern bir işletme rehberidir. Müşterilerin kolayca işletme bulup iletişim kurabildiği kullanıcı dostu bir arayüz sunar.
+Vitrindeyiz, İstanbul'daki işletmeleri dijital platformda bir araya getiren modern bir işletme rehberidir. Müşterilerin kolayca işletme bulup iletişim kurabildiği kullanıcı dostu bir arayüz sunar.
 
 ## Özellikler
 
@@ -30,8 +30,8 @@ Vitrin360, İstanbul'daki işletmeleri dijital platformda bir araya getiren mode
 
 1. Repository'yi klonlayın:
 ```bash
-git clone https://github.com/kullanici-adiniz/vitrin360.git
-cd vitrin360
+git clone https://github.com/kullanici-adiniz/vitrindeyiz.git
+cd vitrindeyiz
 ```
 
 2. Bağımlılıkları yükleyin:
@@ -109,8 +109,8 @@ Bu proje MIT lisansı altındadır.
 ## İletişim
 
 Proje hakkında sorularınız için:
-- E-posta: info@vitrin360.com
-- Website: [vitrin360.com](https://vitrin360.com)
+- E-posta: info@vitrindeyiz.com
+- Website: [vitrindeyiz.com](https://vitrindeyiz.com)
 
 ---
 

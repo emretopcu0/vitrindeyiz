@@ -16,7 +16,7 @@ const CallToActionBanner: React.FC = () => {
           {/* Left Content */}
           <div className="text-white">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Vitrin360 ile İstanbul'daki İşletmenizi Dijitalde Öne Çıkarın!
+              Vitrindeyiz ile İstanbul'daki İşletmenizi Dijitalde Öne Çıkarın!
             </h2>
             
             <p className="text-xl text-blue-100 mb-8">
@@ -46,7 +46,7 @@ const CallToActionBanner: React.FC = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
-                alt="Vitrin360 mobil uygulama"
+                alt="Vitrindeyiz mobil uygulama"
                 className="w-full max-w-sm mx-auto rounded-2xl shadow-2xl"
               />
               {/* Phone frame overlay effect */}

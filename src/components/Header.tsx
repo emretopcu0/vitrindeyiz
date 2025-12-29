@@ -13,7 +13,7 @@ const Header: React.FC = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <div className="text-2xl font-bold text-blue-600">
-              Vitrin360
+              Vitrindeyiz
             </div>
             <div className="ml-2 text-sm text-gray-600 hidden md:block">
               İşletmene ait Vitrine

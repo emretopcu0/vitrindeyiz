@@ -99,7 +99,7 @@ const AdvertisePage: React.FC = () => {
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold mb-4">İşletmenizi Öne Çıkarın!</h1>
           <p className="text-xl text-blue-100">
-            Vitrin360 ile İstanbul'daki potansiyel müşterilerinize ulaşın
+            Vitrindeyiz ile İstanbul'daki potansiyel müşterilerinize ulaşın
           </p>
         </div>
       </section>
@@ -107,7 +107,7 @@ const AdvertisePage: React.FC = () => {
       {/* Benefits Section */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Neden Vitrin360?</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Neden Vitrindeyiz?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {benefits.map((benefit, index) => (
               <div key={index} className="text-center">
@@ -196,7 +196,7 @@ const AdvertisePage: React.FC = () => {
                   </div>
                   <div className="flex items-center gap-3">
                     <Mail className="text-blue-600" size={20} />
-                    <span>reklam@vitrin360.com</span>
+                    <span>reklam@vitrindeyiz.com</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <MapPin className="text-blue-600" size={20} />

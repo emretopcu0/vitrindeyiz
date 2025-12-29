@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
 
           {/* About Section */}
           <div>
-            <h3 className="text-xl font-semibold mb-6">Vitrin360</h3>
+            <h3 className="text-xl font-semibold mb-6">Vitrindeyiz</h3>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
               İstanbul'un en kapsamlı dijital işletme rehberi. Güvenilir işletmeleri keşfedin, 
               kolayca iletişim kurun ve işletmenizi dijital vitrine çıkarın. 
@@ -105,7 +105,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 Vitrin360. Tüm hakları saklıdır.
+              © 2024 Vitrindeyiz. Tüm hakları saklıdır.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
