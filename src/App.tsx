@@ -1,25 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import CategoryNavigation from './components/CategoryNavigation';
+import BusinessListings from './components/BusinessListings';
+import CallToActionBanner from './components/CallToActionBanner';
+import Footer from './components/Footer';
+import SectorsPage from './pages/SectorsPage';
+import AdvertisePage from './pages/AdvertisePage';
+import ContactPage from './pages/ContactPage';
+import BusinessDetailPage from './pages/BusinessDetailPage';
+
+// HomePage component
+const HomePage: React.FC = () => (
+  <>
+    <HeroSection />
+    <CategoryNavigation />
+    <BusinessListings />
+    <CallToActionBanner />
+  </>
+);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="min-h-screen">
+        <Header />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/sektorler" element={<SectorsPage />} />
+          <Route path="/reklam-ver" element={<AdvertisePage />} />
+          <Route path="/iletisim" element={<ContactPage />} />
+          <Route path="/isletme/:id" element={<BusinessDetailPage />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
