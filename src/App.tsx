@@ -12,6 +12,7 @@ import ContactPage from './pages/ContactPage';
 import BusinessDetailPage from './pages/BusinessDetailPage';
 import SearchResultsPage from './pages/SearchResultsPage';
 import CategoryPage from './pages/CategoryPage';
+import AdminPage from './pages/AdminPage';
 
 // HomePage component
 const HomePage: React.FC = () => (
@@ -36,6 +37,7 @@ function App() {
           <Route path="/isletme/:id" element={<BusinessDetailPage />} />
           <Route path="/arama" element={<SearchResultsPage />} />
           <Route path="/kategori/:categoryName" element={<CategoryPage />} />
+          <Route path="/admin" element={<AdminPage />} />
         </Routes>
         <Footer />
       </div>
